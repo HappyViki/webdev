@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Security+ Certification",
+        "meta": "CompTIA",
+        "text": "Studied current physical and software security practices at own pace with study group.",
+        "year": "2021"
+    },
+    {
+        "id": 2,
+        "title": "Software Quality Assurance Training",
+        "meta": "Portnov Computer School",
+        "text": "Learned essential troubleshooting skills, automated testing, and quality assurance.",
+        "year": "2018"
+    },
+    {
+        "id": 3,
+        "title": "Software Development Training",
+        "meta": "Udemy, FreeCodeCamp, W3Schools, edX, Coursera, Lynda, etc",
+        "text": "I love learning new things, most of what I know now, I have learned at my own pace using various online materiels and in-person mentors.",
+        "year": "2016"
+    }
+]

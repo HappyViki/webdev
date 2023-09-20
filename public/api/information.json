@@ -1,0 +1,28 @@
+{
+    "firstName": "Veronica",
+    "lastName": "Eulenberg",
+    "fullName": "Veronica Eulenberg",
+    "title": "Senior Front End Web Developer",
+    "thumbImage": "/images/formal-image.JPG",
+    "largeImage": "/images/about-image.jpg",
+    "bio": "I have fixed and customized user-focused, responsive-design and cross-browser compatible solutions with various customers since 2017.",
+    "tech": [
+        "JavaScript",
+        "CSS",
+        "React",
+        "Node",
+        "Mobile Development",
+        "Web Development"
+    ],
+    "address": "Dallas, TX",
+    "socialAddress": {
+        "github": "https://github.com/HappyViki/",
+        "linkedin": "https://www.linkedin.com/in/veronica-eulenberg/"
+    },
+    "phoneNumbers": [
+        "123"
+    ],
+    "emailAddress": [
+        "veronica.eulenberg@gmail.com"
+    ]
+}
