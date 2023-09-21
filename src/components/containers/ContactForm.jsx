@@ -2,6 +2,7 @@ const ContactForm = () => {
 
   return (
     <form
+      action="/thanks"
       name="contact"
       method="POST"
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
