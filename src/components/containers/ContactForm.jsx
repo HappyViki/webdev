@@ -7,6 +7,7 @@ const ContactForm = () => {
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
       data-netlify="true"
     >
+      <input type="hidden" name="contact" value="contact" />
       <div className="inputbox">
         <label htmlFor="name">Name</label>
         <input
