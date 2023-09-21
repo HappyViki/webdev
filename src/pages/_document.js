@@ -10,13 +10,6 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      {/* <!-- A little help for the Netlify post-processing bots --> */}
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <input type="text" name="subject" />
-        <textarea name="message" />
-      </form>
       <body className="relative">
         <Main />
         <NextScript />

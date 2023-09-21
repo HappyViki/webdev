@@ -2,7 +2,6 @@ const ContactForm = () => {
 
   return (
     <form
-      action="/thanks"
       name="contact"
       method="POST"
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
@@ -14,7 +13,6 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Enter your name..."
-          id="name"
           name="name"
         />
       </div>
@@ -23,7 +21,6 @@ const ContactForm = () => {
         <input
           type="email"
           placeholder="Enter your email..."
-          id="email"
           name="email"
         />
       </div>
@@ -32,7 +29,6 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Enter subject..."
-          id="subject"
           name="subject"
         />
       </div>
@@ -42,7 +38,6 @@ const ContactForm = () => {
           placeholder="Enter you message..."
           cols="1"
           rows="5"
-          id="message"
           name="message"
         />
       </div>
