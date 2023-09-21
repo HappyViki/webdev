@@ -13,7 +13,6 @@
         "export": "next build && next export"
     },
     "dependencies": {
-        "@emailjs/browser": "^3.6.2",
         "axios": "^0.26.1",
         "disqus-react": "^1.1.2",
         "framer-motion": "^6.2.10",
