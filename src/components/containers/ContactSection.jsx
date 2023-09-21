@@ -19,7 +19,7 @@ const ContactSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.2 }}
         variants={childrenAnimation}
-        className="col-span-9 lg:col-span-4"
+        className="col-span-9 lg:col-span-9"
       >
         <div className="contact-information">
           <h4>Contact Information</h4>
@@ -68,7 +68,7 @@ const ContactSection = () => {
           </div>
         </div>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -77,7 +77,7 @@ const ContactSection = () => {
         className="col-span-9 lg:col-span-5"
       >
         <ContactForm />
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
