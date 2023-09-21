@@ -15,6 +15,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Enter your name..."
           id="name"
+          name="name"
         />
       </div>
       <div className="inputbox">
@@ -23,6 +24,7 @@ const ContactForm = () => {
           type="email"
           placeholder="Enter your email..."
           id="email"
+          name="email"
         />
       </div>
       <div className="inputbox">
@@ -31,6 +33,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Enter subject..."
           id="subject"
+          name="subject"
         />
       </div>
       <div className="inputbox">
@@ -40,6 +43,7 @@ const ContactForm = () => {
           cols="1"
           rows="5"
           id="message"
+          name="message"
         />
       </div>
       <button type="submit" className="btn">
