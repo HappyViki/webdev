@@ -6,7 +6,7 @@ const ContactForm = () => {
       name="contact"
       method="POST"
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
-      data-netlify="true"
+      netlify
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="inputbox">
