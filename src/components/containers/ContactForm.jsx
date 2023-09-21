@@ -1,23 +1,9 @@
-import { useRef, useState } from "react";
-import { useForm } from "react-hook-form";
-
 const ContactForm = () => {
-  const currentForm = useRef();
-
-  const [serverSuccess, setServerSuccess] = useState("");
-  const [serverError, setServerError] = useState("");
-
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
 
   return (
     <form
       name="contact"
       method="POST"
-      ref={currentForm}
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
       data-netlify="true"
     >
@@ -27,17 +13,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Enter your name..."
           id="name"
-          {...register("name", { required: true })}
         />
-        {errors.name && (
-          <>
-            {errors.name.type === "required" && (
-              <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-                Name is required!
-              </p>
-            )}
-          </>
-        )}
       </div>
       <div className="inputbox">
         <label htmlFor="email">Email</label>
@@ -45,25 +21,7 @@ const ContactForm = () => {
           type="email"
           placeholder="Enter your email..."
           id="email"
-          {...register("email", {
-            required: true,
-            pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-          })}
         />
-        {errors.email && (
-          <>
-            {errors.email.type === "required" && (
-              <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-                Email is required!
-              </p>
-            )}
-            {errors.email.type === "pattern" && (
-              <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-                Invalid email address!
-              </p>
-            )}
-          </>
-        )}
       </div>
       <div className="inputbox">
         <label htmlFor="subject">Subject</label>
@@ -71,17 +29,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Enter subject..."
           id="subject"
-          {...register("subject", { required: true })}
         />
-        {errors.subject && (
-          <>
-            {errors.subject.type === "required" && (
-              <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-                Subject is required!
-              </p>
-            )}
-          </>
-        )}
       </div>
       <div className="inputbox">
         <label htmlFor="message">Message</label>
@@ -90,28 +38,8 @@ const ContactForm = () => {
           cols="1"
           rows="5"
           id="message"
-          {...register("message", { required: true })}
         />
-        {errors.message && (
-          <>
-            {errors.message.type === "required" && (
-              <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-                Message is required!
-              </p>
-            )}
-          </>
-        )}
       </div>
-      {!serverSuccess && serverError && (
-        <p className="bg-red-500 bg-opacity-5 text-center text-sm text-red-500">
-          {serverError}
-        </p>
-      )}
-      {!serverError && serverSuccess && (
-        <p className="bg-green-500 bg-opacity-5 text-center text-sm text-green-500">
-          {serverSuccess}
-        </p>
-      )}
       <button type="submit" className="btn">
         <span>Send</span>
       </button>
