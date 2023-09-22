@@ -28,14 +28,14 @@ const ContactForm = () => {
         <label htmlFor="subject">Subject</label>
         <input
           type="text"
-          placeholder="Enter subject..."
+          placeholder="Enter your subject..."
           name="subject"
         />
       </div>
       <div className="inputbox">
         <label htmlFor="message">Message</label>
         <textarea
-          placeholder="Enter you message..."
+          placeholder="Enter your message..."
           cols="1"
           rows="5"
           name="message"
