@@ -1,37 +1,11 @@
 const ContactForm = () => {
 
-  const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
-
-  const handleSubmit = e => {
-
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ 
-        "form-name": "contact", 
-        "name": e.target.elements.name.value,
-        "email": e.target.elements.email.value,
-        "subject": e.target.elements.subject.value,
-        "message": e.target.elements.message.value,
-      })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
-
   return (
     <form
       name="contact"
       method="POST"
       className="card -mt-1.5 space-y-4 p-4 md:p-5"
       netlify="true"
-      onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="inputbox">
