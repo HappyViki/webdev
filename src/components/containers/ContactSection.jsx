@@ -61,7 +61,7 @@ const ContactSection = () => {
               <div className="content">
                 <h5 className="mb-2">Location</h5>
                 <p className="mb-0">
-                  {data.address}
+                  {data.location}
                 </p>
               </div>
             </div>

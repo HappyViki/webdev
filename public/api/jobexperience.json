@@ -1,23 +1,30 @@
 [
     {
         "id": 1,
-        "title": "Front End Mobile Engineer",
-        "meta": "LifeOmic",
-        "text": "Built an internal customer support app with Material UI, React, Axios, Apollo, and GraphQL. Answered 40+ technical tickets a day to solve customer issues. Contributed to app design 10+ times at weekly UX (User Experience) meetings.",
-        "year": "2021"
+        "title": "Data Annotator",
+        "meta": "Moveworks",
+        "text": "Automated annotation tasks with JavaScript Bookmarklets.",
+        "year": "2021 - 2023"
     },
     {
         "id": 2,
-        "title": "Front End Web Engineer",
-        "meta": "MX Technologies",
-        "text": "Fixed 50+ bugs with CSS, JavaScript, ReactJS. Lead 3+ meetings with 2-5 coworkers. Prepared 5+ designs for complex bug fix meetings with other developers. Tested with Firefox, Chrome, Safari, Internet Explorer 11 with VirtualBox, and mobile.",
-        "year": "2020"
+        "title": "Front End Mobile Engineer",
+        "meta": "LifeOmic",
+        "text": "Built an internal customer support app with Material UI, React, Axios, Apollo, and GraphQL.",
+        "year": "2021"
     },
     {
         "id": 3,
+        "title": "Front End Web Engineer",
+        "meta": "MX Technologies",
+        "text": "Prepared 5+ designs for complex bug fix meetings with other developers.",
+        "year": "2020"
+    },
+    {
+        "id": 4,
         "title": "Full Stack WordPress Engineer",
         "meta": "J.F. Web Development",
-        "text": "Developed 5+ WordPress/WooCommerce sites with Beaver Builder page builder and CSS. Modified 10+ websites with HTML, PHP, CSS, JavaScript, and jQuery to comply with requests. Used WordPress hooks, plugins, PHP, and JavaScript to enhance User Experience. Wrote 10+ detailed progress reports on new feature implementation. Transferred 20+ domain names between HostGator, BlueHost, 1&1, and GoDaddy.",
+        "text": "Modified 10+ websites with HTML, PHP, CSS, JavaScript, and jQuery to comply with requests.",
         "year": "2017 - 2021"
     }
 ]

@@ -6,19 +6,20 @@
     "thumbImage": "/images/formal-image.JPG",
     "largeImage": "/images/about-image.jpg",
     "bio": "I have fixed and customized user-focused, responsive-design and cross-browser compatible solutions with various customers since 2017.",
+    "about": "I have 6 years of experience in software development. My strengths are in JavaScript, CSS, React, Node, Mobile, and Web Development. Seeking to work with professionals that have a positive attitude and a good sense of humor.",
     "tech": [
         "JavaScript",
         "CSS",
         "React",
         "Node",
-        "Mobile Development",
-        "Web Development"
+        "Mobile",
+        "Web"
     ],
-    "address": "Dallas, TX",
     "socialAddress": {
         "github": "https://github.com/HappyViki/",
         "linkedin": "https://www.linkedin.com/in/veronica-eulenberg/"
     },
     "phoneNumber": "650-224-0951",
-    "emailAddress": "veronica.eulenberg@gmail.com"
+    "emailAddress": "veronica.eulenberg@gmail.com",
+    "location": "Dallas, TX"
 }

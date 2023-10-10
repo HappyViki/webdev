@@ -54,9 +54,9 @@ const AboutSection = () => {
           <h3>
             Who is <span className="text-primary">{data.fullName}</span>?
           </h3>
-          <h4>Senior Front End Web Developer</h4>
-          <p>I have 6 years of experience in software development. My strengths are in JavaScript, CSS, React, Node, Mobile, and Web Development. Seeking to work with professionals that have a positive attitude and a good sense of humor.</p>
-          <p>Located in Dallas, TX.</p>
+          <h4>{data.title}</h4>
+          <p>{data.about}</p>
+          <p>Located in {data.location}.</p>
           <a href="/VeronicaEulenbergResume.pdf" className="btn mt-3">
             <span>Download Resume</span>
           </a>

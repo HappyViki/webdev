@@ -27,21 +27,21 @@ function MyApp({ Component, pageProps }) {
   return (
     <QueryClientProvider client={queryClientRef.current}>
       <AppProvider>
-        <Head>
+      <Head>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1 maximum-scale=1"
           />
-          <meta name="description" content="description" />
+          <meta name="description" content="I have 6 years of experience in software development. My strengths are in JavaScript, CSS, React, Node, Mobile, and Web Development. Seeking to work with professionals that have a positive attitude and a good sense of humor." />
           <meta name="robots" content="noindex, nofollow" />
-          <meta name="keywords" content="React Template, Portfolio Template" />
+          <meta name="keywords" content="JavaScript, CSS, React, Node, Mobile, Web" />
           <meta name="author" content="Nuclear Themes" />
           <meta name="theme-color" content="#72E2AE" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <link rel="manifest" href="/manifest.json" />
           <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
           <link rel="apple-touch-icon" href="/icon-192x192.png" />
-          <title>Bieber - React Personal Portfolio Template</title>
+          <title>Veronica Eulenberg | Senior Front End Web Developer</title>
         </Head>
         <ParallaxProvider>
           <Hydrate state={pageProps.dehydratedState}>
