@@ -3,7 +3,7 @@ import { Element as Section } from "react-scroll";
 import {
   AboutSection,
   HeroSection,
-  ResumeSection,
+  ServicesSection,
   ContactSection
 } from "../components/containers";
 import { Layout } from "../components/layout";
@@ -40,8 +40,8 @@ const Homepage1 = () => {
         className="resume-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
-          <SectionHeading title="My Experience" watermark="" />
-          <ResumeSection />
+          <SectionHeading title="My Skills" watermark="" />
+          <ServicesSection />
         </div>
       </Section>
       {/* End Resume Section */}

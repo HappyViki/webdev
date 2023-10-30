@@ -1,11 +1,11 @@
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
 import HeroSection from "./HeroSection";
-import ResumeSection from "./ResumeSection";
+import ServicesSection from "./ServicesSection";
 
 export {
     HeroSection,
     AboutSection,
-    ResumeSection,
+    ServicesSection,
     ContactSection,
 };

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Front End Development",
+        "text": "I use HTML5, CSS3, and JavaScript frameworks and libraries to develop client facing apps.",
+        "icon": "/icons/quill-pen-line.svg"
+    },
+    {
+        "id": 2,
+        "title": "Data Analytics",
+        "text": "I process and visualize data with Node and Google Sheets.",
+        "icon": "/icons/code-s-slash-line.svg"
+    },
+    {
+        "id": 3,
+        "title": "Quality Assurance",
+        "text": "I process and visualize data with Node and Google Sheets.",
+        "icon": "/icons/code-s-slash-line.svg"
+    },
+    {
+        "id": 4,
+        "title": "ReactJS",
+        "text": "I fix React-specific issues.",
+        "icon": "/icons/smartphone-line.svg"
+    },
+    {
+        "id": 5,
+        "title": "React Native",
+        "text": "I build apps for Android and iOS.",
+        "icon": "/icons/smartphone-line.svg"
+    },
+    {
+        "id": 6,
+        "title": "Tech Support",
+        "text": "I concisely explain technical solutions.",
+        "icon": "/icons/smartphone-line.svg"
+    }
+]

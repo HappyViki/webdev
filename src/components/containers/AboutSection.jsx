@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { childrenAnimation } from "../../lib/motion";
 import { getInformation } from "../../fetchers";
 import { useQuery } from "react-query";
+import { ResumeButton } from "../elements"
 
 const AboutSection = () => {
   const { data } = useQuery("information", getInformation);
@@ -57,9 +58,7 @@ const AboutSection = () => {
           <h4>{data.title}</h4>
           <p>{data.about}</p>
           <p>Located in {data.location}.</p>
-          <a href="/VeronicaEulenbergResume.pdf" className="btn mt-3">
-            <span>Download Resume</span>
-          </a>
+          <ResumeButton />
         </motion.div>
       </div>
     </div>
